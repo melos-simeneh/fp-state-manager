@@ -1,0 +1,12 @@
+{
+  "name": "fp-without-immer",
+  "version": "1.0.0",
+  "description": "functional programming state manager without using immer",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Melos Simeneh",
+  "license": "ISC"
+}
