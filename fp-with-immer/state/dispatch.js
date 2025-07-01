@@ -9,7 +9,7 @@ export const dispatchAction = (history, reducer, event, logger) => {
   );
 
   return {
-    past: [...history.past, { patches: inversePatches }],
+    past: [...history.past, { patches, inversePatches }],
     present: newPresent,
     future: [],
   };
