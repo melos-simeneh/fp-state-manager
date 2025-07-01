@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "functional programming state manager without using immer",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest.js"
   },
   "author": "Melos Simeneh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^30.0.3"
+  }
 }
