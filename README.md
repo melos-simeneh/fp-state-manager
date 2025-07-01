@@ -67,6 +67,14 @@ fp-state-manager/
 
 ![Without Immer Output](screenshots/without-immer.png)
 
+### ⚙️ FP Immer Test Result
+
+![Immer Test Result](screenshots/immer-test-output.png)
+
+### ⚙️ FP without Immer Test Result
+
+![Without Immer Test Result](screenshots/without-immer-test-output.png)
+
 ## 🚀 Getting Started
 
 ### ⚙️ Prerequisites
@@ -100,7 +108,7 @@ npm run dev
 ```bash
 cd fp-with-immer
 npm install
-node index
+npm start # or node index
 ```
 
 - Runs console-based examples using Immer's patch system
@@ -111,12 +119,33 @@ node index
 
 ```bash
 cd fp-without-immer
-node index
+npm install
+npm start # or node index
 ```
 
 - Runs example scripts showing reducer-based state transitions
 
 - Undo/redo logic built from scratch using pure JavaScript
+
+## 🧪 Running Tests
+
+Each implementation includes Jest tests to verify dispatch, undo, and redo functionality.
+
+Run tests for Immer implementation:
+
+```bash
+cd fp-with-immer
+npm install
+npm test
+```
+
+Run tests for Vanilla implementation:
+
+```bash
+cd fp-without-immer
+npm install
+npm test
+```
 
 ## 👨‍💻 Author
 
