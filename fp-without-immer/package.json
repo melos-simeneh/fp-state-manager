@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start":"node index.js",
     "test": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest.js"
   },
   "author": "Melos Simeneh",
